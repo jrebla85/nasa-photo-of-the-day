@@ -1,11 +1,14 @@
 import React from "react";
 import "./App.css";
 import Header from './Components/Header'
+import Body from './Components/Body'
+import axios from 'axios'
 
 function App() {
   return (
     <div className="App">
-      <Header className="Header"/>
+      <Header />
+      <Body />
     </div>
   );
 }
